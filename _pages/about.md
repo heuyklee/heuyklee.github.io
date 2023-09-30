@@ -21,7 +21,8 @@ social: false  # includes social icons at the bottom of the page
 
 I am currently a Ph.D. candidate at Korea Institute of Science and Technology (KAIST) advised by Prof. Dae-Shik Kim. I have primarily researched computer vision in various application domains, including `medical imaging`, `satellite imagery`, and `facial imaging` fields. Initially, I was interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that could bring joy to people.
 
-My recent research interests lie in `3D vision` and `computer graphics`, including the Neural Radiance Field (NeRF). I believe that emerging technologies like NeRF will fundamentally change the way people capture and store time and space. More specifically, just as people now capture photos and videos and share them with others, I believe that in the future, capturing and sharing three-dimensional spaces will become the norm.
+My recent research interests lie in `3D vision` and `computer graphics`, including the Neural Radiance Field (NeRF). I believe that emerging technologies like NeRF will fundamentally change the way people capture and store time and space. 
+<!-- More specifically, just as people now capture photos and videos and share them with others, I believe that in the future, capturing and sharing three-dimensional spaces will become the norm. -->
 
 I am actively conducting research on pivotal technologies for this future, with a keen interest in the editing of 3D spaces and content generation within them. I am particularly interested in topics such as `3D editing`, `3D content generation`, `neural radiance field`, `neural representation`, and `their various applications`. If you have questions about my research or are interested in collaborating, please do not hesitate to contact me!
 

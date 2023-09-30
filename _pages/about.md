@@ -6,12 +6,12 @@ subtitle: Ph.D. Candidate @ Korea Institute of Science and Technology (KAIST)
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: my_pic.jpg
+  image_circular: true # crops the image to make it circular
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,7 +19,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I have primarily researched computer vision in various application domains, including <mark>medical imaging</mark>, <mark>satellite imagery</mark>, and <mark>facial imaging</mark> fields. Initially, I was only interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that could bring joy to people.
+
+My recent research interests lie in <mark>3D vision</mark> and <mark>computer graphics</mark>, including the Neural Radiance Field (NeRF). I believe that emerging technologies like NeRF will fundamentally change the way people capture and store time and space. More specifically, just as people now capture photos and videos and share them with others, I believe that in the future, capturing and sharing three-dimensional spaces will become the norm.
+
+I am actively conducting research on pivotal technologies for this future, with a keen interest in the editing of 3D spaces and content generation within them. I am particularly interested in topics such as <mark>3D editing</mark>, <mark>3D content generation</mark>, <mark>neural radiance field</mark>, <mark>neural representation</mark>, and their various applications.
+
+If you have questions about my research or are interested in collaborating, please do not hesitate to contact me!13
+
+
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

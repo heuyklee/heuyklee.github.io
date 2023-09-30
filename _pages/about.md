@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate @ Korea Institute of Science and Technology (KAIST)
+subtitle: Ph.D. Candidate @ KAIST
 
 profile:
   align: right
   image: my_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: True # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
@@ -19,14 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I have primarily researched computer vision in various application domains, including <mark>medical imaging</mark>, <mark>satellite imagery</mark>, and <mark>facial imaging</mark> fields. Initially, I was only interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that could bring joy to people.
+I am currently a Ph.D. student at Korea Institute of Science and Technology (KAIST) advised by Dae-Shik Kim. I have primarily researched computer vision in various application domains, including `medical imaging`, `satellite imagery`, and `facial imaging` fields. Initially, I was only interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that could bring joy to people.
 
-My recent research interests lie in <mark>3D vision</mark> and <mark>computer graphics</mark>, including the Neural Radiance Field (NeRF). I believe that emerging technologies like NeRF will fundamentally change the way people capture and store time and space. More specifically, just as people now capture photos and videos and share them with others, I believe that in the future, capturing and sharing three-dimensional spaces will become the norm.
+My recent research interests lie in `3D vision` and `computer graphics`, including the Neural Radiance Field (NeRF). I believe that emerging technologies like NeRF will fundamentally change the way people capture and store time and space. More specifically, just as people now capture photos and videos and share them with others, I believe that in the future, capturing and sharing three-dimensional spaces will become the norm.
 
-I am actively conducting research on pivotal technologies for this future, with a keen interest in the editing of 3D spaces and content generation within them. I am particularly interested in topics such as <mark>3D editing</mark>, <mark>3D content generation</mark>, <mark>neural radiance field</mark>, <mark>neural representation</mark>, and their various applications.
+I am actively conducting research on pivotal technologies for this future, with a keen interest in the editing of 3D spaces and content generation within them. I am particularly interested in topics such as `3D editing`, `3D content generation`, `neural radiance field`, `neural representation`, and `their various applications`.
 
-If you have questions about my research or are interested in collaborating, please do not hesitate to contact me!13
-
+If you have questions about my research or are interested in collaborating, please do not hesitate to contact me!
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->

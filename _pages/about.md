@@ -7,7 +7,7 @@ subtitle: Ph.D. Candidate @ KAIST
 profile:
   align: right
   image: my_pic.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>

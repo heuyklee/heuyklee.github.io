@@ -19,7 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently a Ph.D. candidate at Korea Institute of Science and Technology (KAIST). I have primarily researched computer vision in various application domains, including `medical`, `satellite`, and `facial` imaging fields. Initially, I was interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that could bring joy to people.
+1 I am currently a Ph.D. candidate at Korea Institute of Science and Technology (KAIST). I have primarily researched computer vision in various application domains, including `medical`, `satellite`, and `facial` imaging fields.
+
+Initially, I was interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that not only bring joy to people but also have the potential to fundamentally transform their lives.
 
 My recent research interests lie in `3D vision` and `computer graphics`, including the Neural Radiance Field (NeRF). I believe that emerging technologies like NeRF will fundamentally change the way people capture and store time and space. 
 <!-- More specifically, just as people now capture photos and videos and share them with others, I believe that in the future, capturing and sharing three-dimensional spaces will become the norm. -->

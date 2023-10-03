@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently a Ph.D. candidate at [KAIST](https://kaist.ac.kr), advised by professor [Das-Shik Kim](https://scholar.google.com/citations?user=nd-UgBYAAAAJ&hl=ko&oi=ao). I have primarily researched computer vision in various application domains, including `medical`, `satellite`, and `facial` imaging fields.
+I am currently a Ph.D. candidate at [KAIST](https://kaist.ac.kr/en/), advised by professor [Das-Shik Kim](https://scholar.google.com/citations?user=nd-UgBYAAAAJ&hl=ko&oi=ao). I have primarily researched computer vision in various application domains, including `medical`, `satellite`, and `facial` imaging fields.
 
 Initially, I was interested in practical technologies that could benefit people, but over time, I grew an interest in technologies that not only bring joy to people but also have the potential to fundamentally transform their lives.
 
@@ -33,3 +33,7 @@ I am actively conducting research on pivotal technologies for this future, with 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+## Education
+---
+Education

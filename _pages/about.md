@@ -27,6 +27,8 @@ My recent research interests lie in `3D vision` and `computer graphics`, includi
 
 I am actively conducting research on pivotal technologies for this future, with a keen interest in the editing of 3D spaces and content generation within them. I am particularly interested in topics such as `3D editing`, `3D content generation`, `neural radiance field`, `neural representation`, and their various applications.
 
+*Education*
+This is education This is education This is education This is education This is education This is education This is education This is education This is education 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 

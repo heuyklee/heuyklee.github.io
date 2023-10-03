@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos."> -->
+  <!-- <meta name="keywords" content="Nerfies, D-NeRF, NeRF"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICE-NeRF: Interactive Color Editing of NeRFs via Decomposition-Aware Weight Optimization</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet"> -->
+  <link rel="stylesheet" href="./static/css/fonts.css">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="./static/js/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">ICE-NeRF: Interactive Color Editing of NeRFs via Decomposition-Aware Weight Optimization
+            <i>
+              <br>-Supplementary Material-
+            </i>
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Anonymous ICCV submission #7319
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Color Editing on Real Scenes</h2>
+        <div class="content has-text-justified">
+          <p>
+            We demonstrate the color editing results obtained by applying <b><i>ICE-NeRF</i></b> to a 
+            pre-trained <b><i>original NeRF</i></b>. Below are the color editing results for 
+            each real scene, along with the recolor and frozen masks used for the color editing.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/horns_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/horns_masks.png" width="80%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Results on Horns Scene.</h2>
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/flower_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/flower_masks.png" width="80%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Results on Flower Scene.</h2>
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fortress_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/fortress_masks.png" width="80%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Results on Fortress Scene.</h2>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Color Editing on Synthetic Scenes</h2>
+        <div class="content has-text-justified">
+          <p>
+            We show the color editing results obtained by applying <b><i>ICE-NeRF</i></b> 
+            to a pre-trained <b><i>TensoRF</i></b>, a fast NeRF model based on voxel 
+            representation. Below are the color editing results for each real scene, 
+            along with the recolor and frozen masks used for the color editing.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/chair_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/chair_masks.png" width="80%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Results on Chair Scene.</h2>
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/ship_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/ship_masks.png" width="80%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Results on Ship Scene.</h2>
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/hotdog_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/hotdog_masks.png" width="80%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Results on Hotdog Scene.</h2>
+        
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Spatially Varying Color Editing</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b><i>ICE-NeRF</i></b> offers a notable advantage in its ability to recolor each 
+            component of a scene with distinct colors. Our method is capable of changing the 
+            colors of multiple objects with similar colors or semantics into different colors (Horns scene), 
+            as well as changing a single object into multiple colors (Flower scene).
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+
+        <div class="item some-item">
+          <center>
+            <video poster="" id="steve" autoplay controls muted loop playsinline width="70%">
+              <source src="./static/videos/horns_sv_merged.mp4"
+                      type="video/mp4">
+            </video>
+          </center>
+          <center>
+            <img src="./static/images/horns_sv_masks.png" width="50%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Spatially Varying Recoloring Result on Horns Scene.</h2>
+
+        <div class="item some-item">
+          <center>
+            <video poster="" id="steve" autoplay controls muted loop playsinline width="70%">
+              <source src="./static/videos/flower_sv_merged.mp4"
+                      type="video/mp4">
+            </video>
+          </center>
+          <center>
+            <img src="./static/images/flower_sv_masks.png" width="40%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Our Spatially Varying Recoloring Result on Flower Scene.</h2>
+        
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">SMR Multi-View Mask Examples</h2>
+        <div class="content has-text-justified">
+          <p>
+            The proposed <b><i>SMR</i></b> utilizes the user's single mask input by rendering it into multiple views. 
+            Typically, in training, up to 5 additional views are rendered and used. Here, to demonstrate 
+            the well-generated multi-view masks, we show the rendered masks from 120 consecutive views.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/horns_SMR_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/horns_SMR_masks.png" width="40%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">SMR Output on Horns Scene.</h2>
+
+        <div class="item some-item">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/flower_SMR_merged.mp4"
+                    type="video/mp4">
+          </video>
+          <center>
+            <img src="./static/images/flower_SMR_masks.png" width="40%">    
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">SMR Output on Flower Scene.</h2>
+        
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Ablation Study on SMR</h2>
+        <div class="content has-text-justified">
+          <p>
+            The results below show the recoloring outcomes when <b><i>SMR</i></b> is used during training and when it is not used. 
+            In case where <b><i>SMR</i></b> is not applied, it can be observed that the color of the flowers changes significantly 
+            as the view changes during the rendering process.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+
+        <div class="item some-item">
+          <center>
+            <video poster="" id="steve" autoplay controls muted loop playsinline width="70%">
+              <source src="./static/videos/flower_sv_ablation_SMR.mp4"
+                      type="video/mp4">
+            </video>
+          </center>
+        </div>
+        <h2 class="subtitle has-text-centered">Left: with SMR / Right: without SMR</h2>
+        
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website template is borrowed from Nerfies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

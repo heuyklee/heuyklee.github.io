@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently a Ph.D. candidate at [KAIST](https://kaist.ac.kr/en/), advised by professor [Dae-Shik Kim](https://scholar.google.com/citations?user=nd-UgBYAAAAJ&hl=ko&oi=ao). I have primarily researched computer vision in various application domains, including `medical`, `satellite`, and `facial` imaging fields.
+I am currently a Ph.D. candidate at [KAIST](https://kaist.ac.kr/en/), advised by professor [Dae-Shik Kim](https://scholar.google.com/citations?user=nd-UgBYAAAAJ&hl=en&oi=ao). I have primarily researched computer vision in various application domains, including `medical`, `satellite`, and `facial` imaging fields.
 
 Initially, I was drawn to practical tools and methods that could benefit people. However, over time, my focus shifted to innovations that not only bring joy to people but also have the potential to fundamentally transform their lives.
 
